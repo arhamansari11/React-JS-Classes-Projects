@@ -1,0 +1,64 @@
+.head{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 37px;
+}
+  .text-light {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .heading {
+    font-size: 36px;
+     
+  }
+
+  h3 {
+    font-size: 24px;
+
+  }
+.btn1{
+    background-color: rgb(57, 180, 57); /* Set button background color */
+    color: #fff; /* Set button text color */
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+.btn2{
+    background-color: red; /* Set button background color */
+    color: #fff; /* Set button text color */
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+.btn3{
+    background-color: rgb(181, 181, 58);
+    color: #fff; /* Set button text color */
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+  .btn1:hover {
+    background-color:rgb(98, 179, 98);
+  }
+  .btn2:hover {
+    background-color:rgba(255, 0, 0, 0.614);
+  }
+  .btn3:hover {
+    background-color:rgb(200, 200, 125);
+  }
+
