@@ -1,0 +1,150 @@
+@media only screen and (min-width:181px) and (max-width:2800px) {
+    .img {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width:1401px) and (max-width:1800px) {
+    .img {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width:1201px) and (max-width:1400px) {
+    .img {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1200px) {
+    .img {
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:992px) {
+    .img {
+        width: 380px;
+    }
+
+    .text {
+        font-size: 25px;
+    }
+    .text1{
+        font-size: 15px;
+    }
+    .text2{
+        font-size: 14px;
+    }
+    .button{
+        width: 70px !important;
+    }
+    .button1{
+        width: 150px !important;
+    }
+}
+
+@media only screen and (min-width:575px) and (max-width:766px) {
+    .img {
+        width: 250px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+    .text1{
+        font-size: 10px;
+    }
+    .text2{
+        font-size: 10px;
+    }
+    .button{
+        width: 60px !important;
+        height: 30px !important;
+    }
+    .button1{
+        width: 130px !important;
+        height: 30px !important;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:574px) {
+    .img {
+        width: 200px;
+    }
+
+    .text {
+        font-size: 17px;
+    }
+    .text1{
+        font-size: 7px;
+    }
+    .text2{
+        font-size: 7px;
+        padding-top: 3px;
+    }
+    .button{
+        width: 40px !important;
+        height: 25px !important;
+    }
+    .button1{
+        width: 100px !important;
+        height: 25px !important;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:399px) {
+    .img {
+        width: 150px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+    .text1{
+        font-size: 7px;
+    }
+    .text2{
+        font-size: 7px;
+        padding-top: 5px;
+    }
+    .button{
+        width: 35px !important;
+        height: 20px !important;
+    }
+    .button1{
+        width: 80px !important;
+        height: 20px !important;
+    }
+}
+
+
+.button{
+    background-color: #0D6EFD;  
+    border: none;
+    color: white;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+}
+.button1{
+    background-color: #0D6EFD;
+    border: none;
+    color: white;
+    height: 45px;
+    border-radius: 5px;
+    width: 200px;
+}
+.button:hover{
+    background-color: white;
+    border: 1px solid #0D6EFD;
+    border-radius: 5px;
+    color:#0D6EFD;
+    transition: 0.5s;
+}
+.button1:hover{
+    background-color: white;
+    border: 1px solid #0D6EFD;
+    border-radius: 5px;
+    color:#0D6EFD;
+    transition: 0.5s;
+}

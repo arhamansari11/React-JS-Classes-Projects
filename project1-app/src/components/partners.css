@@ -1,0 +1,68 @@
+.partner {
+    color: #39A9CB;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.img1 {
+    width: 60px;
+}
+
+.img2 {
+    width: 60px;
+}
+
+.img3 {
+    width: 60px;
+}
+
+.img4 {
+    width: 30px;
+}
+
+.lastimg {
+    width: 500px;
+}
+
+@media only screen and (min-width:400px) and (max-width:574px) {
+    .lastimg {
+        width: 400px !important;
+    }
+
+    .img1 {
+        width: 40px;
+    }
+
+    .img2 {
+        width: 40px;
+    }
+
+    .img3 {
+        width: 40px;
+    }
+
+    .img4 {
+        width: 20px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:399px) {
+    .lastimg {
+        width: 300px !important;
+    }
+
+    .img1 {
+        width: 20px;
+    }
+
+    .img2 {
+        width: 20px;
+    }
+
+    .img3 {
+        width: 20px;
+    }
+
+    .img4 {
+        width: 10px;
+    }
+}

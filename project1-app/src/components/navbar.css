@@ -1,0 +1,18 @@
+.nav-img{
+    width: 100px;
+}
+.btn-class{
+    background-color: #0D6EFD;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: white;
+}
+.btn-class:hover{
+    background-color: white;
+    border: 1px solid #0D6EFD;
+    border-radius: 5px;
+    width: 100px;
+    color:#0D6EFD;
+    transition: 0.5s;
+}
