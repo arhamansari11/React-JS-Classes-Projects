@@ -1,0 +1,23 @@
+.frame{
+    width: 600px;
+}
+@media only screen and (min-width:767px) and (max-width:992px){
+    .frame{
+        width: 430px !important;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:766px){
+    .frame{
+        width: 350px !important;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:499px){
+    .frame{
+        width: 300px !important;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:399px){
+    .frame{
+        width: 280px !important;
+    }
+}

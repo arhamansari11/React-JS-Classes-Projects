@@ -1,0 +1,11 @@
+.card{
+    background-color: #EFEFEF;
+    border: none;
+    padding: 10px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.img{
+    width: 50px;
+}
