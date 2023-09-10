@@ -1,0 +1,6 @@
+  body{
+      background: #0D132E;
+    }
+    ::selection{
+      background-color: black;
+    }
