@@ -189,3 +189,36 @@ function App() {
 }
 
 export default App;
+
+
+<form onSubmit={createDoc}>
+<div className="row">
+  <div className="col">
+    <input
+      type="text"
+      placeholder="Full Name"
+      name="fullName"
+      className="custom-input"
+      onChange={(e) => {
+        setFullName(e.target.value);
+      }}
+    />
+  </div>
+  <div className="col">
+    <input
+      type="number"
+      placeholder="Age"
+      name="age"
+      className="custom-input"
+      onChange={(e) => {
+        setAge(e.target.value);
+      }}
+    />
+  </div>
+</div>
+<div className="row mt-3">
+  <div className="col text-center">
+    <button className="custom-button">Add User</button>
+  </div>
+</div>
+</form>
